@@ -13,7 +13,7 @@ This is to be split into two categories <a href="#live">live CTFs</a> and <a hre
 ## picoCTF
 |                         | Binary Exploitation  | Cryptography        | Forensics          | Reverse Engineering  | Web Exploitation    | General Skills      |
 |-------------------------|----------------------|---------------------|-------------------|----------------------|---------------------|---------------------|
-| **picoGym Exclusive**    |                     |                     |                   |                      |                     |                     |
+| **picoGym Exclusive**    |                      |                     |                   |                      |                     |[`Big Zip`](https://github.com/helixplant/CTF_WriteUps/blob/main/practice/picoCTF/BigZip_tut.md)|
 | **picoCTF 2019**         |                      |                     |                   |                      |                     |                     |
 | **picoCTF 2020 Mini-Comp**|                     |                     |                   |                      |                     |                     |
 | **picoCTF 2021**         |                      |                     |                   |                      |                     |                     |
@@ -25,8 +25,8 @@ This is to be split into two categories <a href="#live">live CTFs</a> and <a hre
 
 <!---
 making links for the ctf stuff
-` challenge ` -- [file](ghLink)
-<br> ` challenge ` -- [file](ghLink) 
+[`file`](ghLink)
+<br> [`file`](ghLink) 
 -->
 
 ## TryHackMe
