@@ -31,7 +31,7 @@ Manually searching through the files reveals the flag. Packet No. 3135 first rev
 ` sun{0n1y_a_p1ng_@way} `
 
 ### Thoughts
-This was a fun step into the competition. I personally love going through packets so I had a great deal of fun searching!
+I completed this second. It wasn't too complex like the previous one. It was fun to search through the packets.
 
 ![](../pics/icmp1_02.PNG)
 
