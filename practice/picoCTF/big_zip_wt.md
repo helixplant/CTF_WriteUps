@@ -29,7 +29,7 @@ The file should now be unzipped and ready to search. Looking at the sheer amount
 Understanding the layout of picoCTF flags, I entered the following command to find text with *"picoCTF"*:<br>
 ` grep -ri "picoctf" * `
 
-Breaking this down<br>
+Breaking this down:<br>
 ` grep ` | searches through files to find a specified pattern <br>
 ` -ri ` | ` r ` performs a recursive search, ` i ` ignore case <br>
 ` "picoctf ` | the pattern we wish to discover <br>
