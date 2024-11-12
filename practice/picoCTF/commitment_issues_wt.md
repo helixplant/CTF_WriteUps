@@ -70,3 +70,35 @@ I enjoyed this exercise. Being able to utilize Git is important in the developme
 ## References
 [1] Git - https://git-scm.com/ 
 
+
+## All Steps - DIY
+`-$ wget https://artifacts.picoctf.net/c_titan/137/challenge.zip` -- USER gets file<br>
+`...downloaded successfully` - SYSTEM downloads<br>
+`-$ unzip challenge.zip` --- USER unzips the file just downloaded<br>
+`...unzipped successfully` - SYSTEM unzips the file<br>
+`-$ ls` --- USER views files<br>
+`... challenge.zip drop-in` - SYSTEM displays files and directories being challenge.zip and drop-in (both directories)<br>
+`-$ cd drop-in` --- USER changes directory to drop-in<br>
+`... changes directory` - SYSTEM changes to drop-in directory<br>
+`-$ ls`<br>
+`... message.txt` - SYSTEM displays files and directories being message.txt (file)  <br>
+`-$ cat message.txt` --- USER calls to display contents within message.txt<br>
+`... TOP SCERET` - SYSTEM displays message.txt contents<br>
+`-$ git log` --- USER requests all commit ids<br>
+`... ` - SYSTEM displays all commit ids<br>
+`-$ git checkout ea859bf3b5d94ee74ce5ee1afa3edd7d4d6b35f0 ` --- USER heads to previous commit <br>
+`... ` - SYSTEM loads previous commit <br>
+`-$ cat message.txt` --- USER calls to display contents within message.txt <br>
+`... picoCTF{s@n1t1z3_cf09a485}` - SYSTEM displays message.txt contents
+
+## All Steps - To the Treasure
+`-$ wget https://artifacts.picoctf.net/c_titan/137/challenge.zip` -- USER gets file<br>
+`...downloaded successfully` - SYSTEM downloads<br>
+`-$ unzip challenge.zip` --- USER unzips the file just downloaded<br>
+`...unzipped successfully` - SYSTEM unzips the file<br>
+`-$ cd drop-in` --- USER changes directory to drop-in<br>
+`... changes directory` - SYSTEM changes to drop-in directory<br>
+`-$ git checkout ea859bf3b5d94ee74ce5ee1afa3edd7d4d6b35f0 ` --- USER heads to previous commit <br>
+`... ` - SYSTEM loads previous commit <br>
+`-$ cat message.txt` --- USER calls to display contents within message.txt <br>
+`... picoCTF{s@n1t1z3_cf09a485}` - SYSTEM displays message.txt contents
